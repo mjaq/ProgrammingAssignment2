@@ -1,0 +1,76 @@
+
+
+   # functions do
+
+## Write a short comment describing this function
+
+makeCacheMatrix <- function(x = matrix()) {
+
+}
+
+
+## Write a short comment describing this function
+
+cacheSolve <- function(x, ...) {
+        ## Return a matrix that is the inverse of 'x'
+}
+
+
+In this programming assignment 2, the functions will be :
+
+  1: makeCacheMatrix: this is the sequence vector x in the matrix. the numbers 
+should be in the correct order.
+
+2: cacheSolve: this is the mean of the x matrix. If the mean has 
+already been calculated, then cachesolve should retrieve mean from cache.
+
+
+## Write a short comment describing this function
+
+makeCacheMatrix <- function(x = matrix()) {
+  
+} 
+solution:
+  
+  1: the numbers for vector x should be within the range 1 to 12 for the 
+sequence, seq
+
+
+makeCacheMatrix <- function(x = matrix(1:12))
+  
+  x <- 12
+seq(1:12)
+
+[1]  1  2  3  4  5  6  7  8  9 10 11 12  
+
+matrix(data = 12, nrow = 2, ncol = 2, byrow = TRUE, dimnames(x))
+[,1] [,2]
+[1,]   12   12
+[2,]   12   12
+
+y <- c(1, 3, 6, 9)
+
+
+
+
+
+## Write a short comment describing this function
+
+cacheSolve <- function(x, ...) {
+  ## Return a matrix that is the inverse of 'x'
+  
+  
+  Solution:    
+    
+} 2: Mean for vector x should be calculated and answered into the simple answer
+which may be faster and easier.
+
+
+set <- mean(x)
+set <- mean(y)
+get <- mean(x)
+get <- mean(y)
+
+cacheSolve <- mean(x=12)
+> mean(1:12, 3, 3)
+[1] 6.5 
